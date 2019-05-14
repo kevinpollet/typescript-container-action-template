@@ -1,0 +1,41 @@
+{
+  "name": "typescript-action-example",
+  "version": "0.0.0",
+  "description": "A GitHub Action example using TypeScript",
+  "author": "kevinpollet <pollet.kevin@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kevinpollet/typescript-action-example#readme",
+  "bugs": "https://github.com/kevinpollet/typescript-action-example/issues",
+  "repository": "github:kevinpollet/typescript-action-example",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "github-action"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "format": "prettier --write '**/*.{json,ts,md}'",
+    "prebuild": "npm run clean"
+  },
+  "devDependencies": {
+    "@kevinpollet/tsconfig": "0.1.0",
+    "@types/node": "10.14.6",
+    "husky": "2.2.0",
+    "lint-staged": "8.1.6",
+    "prettier": "1.17.1",
+    "typescript": "3.4.5"
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{json,ts,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
