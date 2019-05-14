@@ -1,6 +1,6 @@
 # A GitHub Action example using TypeScript
 
-> This repository contains an example of a GitHub action written in TypeScript. This action simply outputs `TypeScript ❤️  GitHub Actions`
+> This repository contains an example of a GitHub action written in TypeScript. This action simply outputs `TypeScript ❤️ GitHub Actions`
 > in the action log.
 
 ## How does it work?
