@@ -30,7 +30,9 @@
     "trailingComma": "es5"
   },
   "husky": {
-    "pre-commit": "lint-staged"
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{json,ts,md}": [

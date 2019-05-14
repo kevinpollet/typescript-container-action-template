@@ -5,4 +5,4 @@
  * found in the LICENSE.md file.
  */
 
-console.log("TypeScript ❤️  GitHub Actions"); 
+console.log("TypeScript ❤️  GitHub Actions");
