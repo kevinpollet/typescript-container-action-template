@@ -21,8 +21,8 @@ TypeScript ❤️  GitHub Actions
 
 ### Advantages
 
-The resulting GitHub action image is thinner and contains only the needed runtime 'dependencies' and not all the
-'devDependencies' needed to build the project with TypeScript.
+The resulting GitHub action image is thinner and contains only the needed runtime `dependencies` and not all the
+`devDependencies` needed to build the project with TypeScript.
 
 ## License
 
