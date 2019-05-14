@@ -5,4 +5,9 @@
  * found in the LICENSE.md file.
  */
 
-console.log("TypeScript ❤️  GitHub Actions");
+import { Toolkit } from "actions-toolkit";
+
+Toolkit.run(tools => {
+  tools.log("TypeScript ❤️ GitHub Actions");
+  tools.exit.success();
+});

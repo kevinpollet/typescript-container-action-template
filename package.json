@@ -18,6 +18,9 @@
     "format": "prettier --write '**/*.{json,ts,md}'",
     "prebuild": "npm run clean"
   },
+  "dependencies": {
+    "actions-toolkit": "2.0.0"
+  },
   "devDependencies": {
     "@kevinpollet/tsconfig": "0.1.0",
     "@types/node": "10.14.6",
