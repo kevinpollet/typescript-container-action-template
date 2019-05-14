@@ -1,4 +1,4 @@
-FROM node:10-alpine as build
+FROM node:10-alpine as builder
 WORKDIR /build
 COPY tsconfig.json .
 COPY package*.json ./
@@ -17,5 +17,5 @@ LABEL maintainer="kevinpollet <pollet.kevin@gmail.com>"
 RUN apk add --no-cache tini
 COPY package*.json ./
 RUN npm install --production
-COPY --from=build build/lib/ lib/
+COPY --from=builder build/lib/ lib/
 ENTRYPOINT [ "/sbin/tini", "--", "node", "/lib/index.js" ]
