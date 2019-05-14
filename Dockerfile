@@ -18,4 +18,4 @@ RUN apk add --no-cache tini
 COPY package*.json ./
 RUN npm install --production
 COPY --from=build build/lib/ lib/
-ENTRYPOINT [ "/sbin/tini", "--", "node", "lib/index.js" ]
+ENTRYPOINT [ "/sbin/tini", "--", "node", "/lib/index.js" ]
