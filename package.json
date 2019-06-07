@@ -1,12 +1,12 @@
 {
-  "name": "typescript-action-example",
+  "name": "typescript-action-template",
   "version": "0.0.0",
-  "description": "A GitHub Action example using TypeScript",
+  "description": "A GitHub Action template using TypeScript",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/kevinpollet/typescript-action-example#readme",
-  "bugs": "https://github.com/kevinpollet/typescript-action-example/issues",
-  "repository": "github:kevinpollet/typescript-action-example",
+  "homepage": "https://github.com/kevinpollet/typescript-action-template#readme",
+  "bugs": "https://github.com/kevinpollet/typescript-action-template/issues",
+  "repository": "github:kevinpollet/typescript-action-template",
   "keywords": [
     "nodejs",
     "typescript",

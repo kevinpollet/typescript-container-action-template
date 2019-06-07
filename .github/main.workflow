@@ -1,8 +1,8 @@
 workflow "TypeScript ❤️Github Actions" {
   on = "push"
-  resolves = ["typescript-action-example"]
+  resolves = ["typescript-action-template"]
 }
 
-action "typescript-action-example" {
+action "typescript-action-template" {
   uses = "./"
 }

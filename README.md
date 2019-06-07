@@ -1,6 +1,6 @@
-# A GitHub Action example using TypeScript
+# A GitHub Action template using TypeScript
 
-> This repository contains an example of a GitHub action written in TypeScript. This action simply outputs `TypeScript ❤️ GitHub Actions`
+> This repository contains a template of a GitHub action written in TypeScript. This action simply outputs `TypeScript ❤️ GitHub Actions`
 > in the action log.
 
 ## How does it work?
@@ -14,9 +14,9 @@ The [Dockerfile](./Dockerfile) use the multi-stage build feature available since
 Here is the action log output:
 
 ```shell
-TypeScript ❤️  GitHub Actions
+ℹ  info      TypeScript ❤️ GitHub Actions
 
-### SUCCEEDED typescript-action-example 08:41:49Z (36.596s)
+### SUCCEEDED typescript-action-template 10:11:03Z (52.157s)
 ```
 
 ### Advantages
