@@ -23,6 +23,10 @@ Here is the action log output:
 The resulting GitHub action image is thinner and contains only the needed runtime `dependencies` and not all the
 `devDependencies` needed to build the project with TypeScript.
 
+## Dependencies
+
+- [@JasonEtco/actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
+
 ## Contributions
 
 Contributions are very welcome ✨👍
