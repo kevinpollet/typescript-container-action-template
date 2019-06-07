@@ -1,4 +1,4 @@
-FROM node:10-alpine as builder
+FROM node:12-alpine as builder
 WORKDIR /build
 COPY tsconfig.json .
 COPY package*.json ./
@@ -6,7 +6,7 @@ RUN npm ci
 COPY src/ src/
 RUN npm run build
 
-FROM node:10-alpine
+FROM node:12-alpine
 LABEL com.github.actions.name="typescript-action-example"
 LABEL com.github.actions.description="A GitHub Action example using TypeScript"
 LABEL com.github.actions.icon="star"
