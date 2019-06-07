@@ -1,7 +1,7 @@
 {
   "name": "typescript-action-template",
   "version": "0.0.0",
-  "description": "A GitHub Action template using TypeScript",
+  "description": "A template to build GitHub Actions in Node.js with TypeScript",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/kevinpollet/typescript-action-template#readme",

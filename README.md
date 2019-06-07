@@ -1,7 +1,6 @@
-# A GitHub Action template using TypeScript
+# A template to build GitHub Actions in Node.js with TypeScript
 
-> This repository contains a template of a GitHub action written in TypeScript. This action simply outputs `TypeScript ❤️ GitHub Actions`
-> in the action log.
+> This action outputs `TypeScript ❤️ GitHub Actions` in the action log.
 
 ## How does it work?
 

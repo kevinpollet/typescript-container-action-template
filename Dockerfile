@@ -8,7 +8,7 @@ RUN npm run build
 
 FROM node:12-alpine
 LABEL com.github.actions.name="typescript-action-template"
-LABEL com.github.actions.description="A GitHub Action template using TypeScript"
+LABEL com.github.actions.description="A template to build GitHub Actions in Node.js with TypeScript"
 LABEL com.github.actions.icon="star"
 LABEL com.github.actions.color="yellow"
 LABEL repository="http://github.com/kevinpollet/typescript-action-template"
