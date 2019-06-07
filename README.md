@@ -24,6 +24,12 @@ Here is the action log output:
 The resulting GitHub action image is thinner and contains only the needed runtime `dependencies` and not all the
 `devDependencies` needed to build the project with TypeScript.
 
+## Contributions
+
+Contributions are very welcome ✨👍
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for more information and how to get started.
+
 ## License
 
 [MIT](./LICENSE.md)
