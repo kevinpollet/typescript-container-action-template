@@ -19,15 +19,15 @@
     "prebuild": "npm run clean"
   },
   "dependencies": {
-    "actions-toolkit": "2.0.0"
+    "actions-toolkit": "2.1.0"
   },
   "devDependencies": {
     "@kevinpollet/tsconfig": "0.1.0",
     "@types/node": "10.14.6",
-    "husky": "2.2.0",
-    "lint-staged": "8.1.6",
-    "prettier": "1.17.1",
-    "typescript": "3.4.5"
+    "husky": "2.4.0",
+    "lint-staged": "8.2.0",
+    "prettier": "1.18.0",
+    "typescript": "3.5.1"
   },
   "prettier": {
     "trailingComma": "es5"
