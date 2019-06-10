@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf lib",
-    "format": "prettier --write '**/*.{json,ts,md}'",
+    "format": "prettier --write 'src/**/*' '*.{json,md}'",
     "prebuild": "npm run clean"
   },
   "dependencies": {
