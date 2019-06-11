@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-  A repository template to build GitHub Actions in Node.js with TypeScript
+  Repository template to build GitHub Actions in Node.js with TypeScript
 </p>
 <div align="center">
  <a hef="https://actions-badge.atrox.dev/kevinpollet/typescript-action-template/goto">
