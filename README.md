@@ -1,9 +1,14 @@
-<h1 align="center">typescript-action-template</h1>
+<h1 align="center">
+  <img src="https://github.com/actions.png" width="150"/>
+  <br/>
+  <br/>
+  typescript-action-template
+</h1>
 
 <p align="center">
   A repository template to build GitHub Actions in Node.js with TypeScript
 </p>
-<p align="center">
+<div align="center">
  <a hef="https://actions-badge.atrox.dev/kevinpollet/typescript-action-template/goto">
     <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fkevinpollet%2Ftypescript-action-template%2Fbadge"/>
   </a>
@@ -11,15 +16,17 @@
   <a href="./LICENSE.md">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
   </a>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
+  <br/>
+  <br/>
   <a href="https://github.com/kevinpollet/typescript-action-template/generate">
     <img src="https://img.shields.io/badge/✨%20Use%20this%20template%20✨-blueviolet.svg?style=for-the-badge"/>
   </a>
   <br/>
   <br/>
-</p>
+</div>
 
 ## How does it work?
 
