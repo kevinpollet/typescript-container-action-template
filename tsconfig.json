@@ -2,8 +2,10 @@
   "extends": "@kevinpollet/tsconfig",
   "compilerOptions": {
     "declaration": false,
+    "lib": ["es2019", "dom"],
     "noImplicitAny": false,
     "outDir": "lib",
-    "rootDir": "src"
+    "rootDir": "src",
+    "target": "es2019" // Node.js 12, see https://node.green
   }
 }
