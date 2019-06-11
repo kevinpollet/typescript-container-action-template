@@ -41,7 +41,7 @@ Here is the GitHub Action log:
 
 ## Features
 
-- [@JasonEtco/actions-toolkit](https://github.com/JasonEtco/actions-toolkit): toolkit for building GitHub Actions in Node.js
+- [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
 - [ESLint](https://github.com/typescript-eslint/typescript-eslint#typescript-eslint): The pluggable linter for JavaScript / TypeScript code
 - [Prettier](https://prettier.io/): Opinionated code formatter
 - [Husky](https://github.com/typicode/husky) & [lint-staged](https://github.com/okonet/lint-staged): For code formatting on git commit
