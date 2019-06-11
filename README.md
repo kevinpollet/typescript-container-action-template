@@ -20,7 +20,6 @@
 
 <div align="center">
   <br/>
-  <br/>
   <a href="https://github.com/kevinpollet/typescript-action-template/generate">
     <img src="https://img.shields.io/badge/✨%20Use%20this%20template%20✨-blueviolet.svg?style=for-the-badge"/>
   </a>
