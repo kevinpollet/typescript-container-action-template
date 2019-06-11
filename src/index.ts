@@ -7,7 +7,7 @@
 
 import { Toolkit } from "actions-toolkit";
 
-Toolkit.run(tools => {
+Toolkit.run((tools: Toolkit): void => {
   tools.log("TypeScript ❤️ GitHub Actions");
   tools.exit.success();
 });

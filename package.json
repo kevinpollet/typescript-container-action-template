@@ -17,6 +17,7 @@
     "build": "tsc",
     "clean": "rm -rf lib",
     "format": "prettier --write 'src/**/*' '*.{json,md}'",
+    "lint": "eslint 'src/**/*'",
     "prebuild": "npm run clean"
   },
   "dependencies": {
@@ -25,10 +26,23 @@
   "devDependencies": {
     "@kevinpollet/tsconfig": "0.1.0",
     "@types/node": "12.0.7",
+    "@typescript-eslint/eslint-plugin": "1.10.2",
+    "@typescript-eslint/parser": "1.10.2",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "4.3.0",
     "husky": "2.4.0",
     "lint-staged": "8.2.0",
     "prettier": "1.18.2",
     "typescript": "3.5.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier",
+      "prettier/@typescript-eslint"
+    ]
   },
   "prettier": {
     "trailingComma": "es5"
