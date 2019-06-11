@@ -1,6 +1,6 @@
 workflow "build" {
   on = "push"
-  resolves = ["install-dependencies", "lint", "run"]
+  resolves = ["install-dependencies", "lint", "test", "run"]
 }
 
 action "install-dependencies" {
@@ -14,7 +14,13 @@ action "lint" {
   runs = "npm run lint"
 }
 
-action "run" {
+action "test" {
   needs = "lint"
+  uses = "docker://node:12-alpine"
+  runs = "npm test"
+}
+
+action "run" {
+  needs = "test"
   uses = "./"
 }

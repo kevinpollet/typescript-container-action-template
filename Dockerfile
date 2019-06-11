@@ -1,6 +1,6 @@
 FROM node:12-alpine as builder
 WORKDIR /build
-COPY tsconfig.json .
+COPY tsconfig*.json ./
 COPY package*.json ./
 RUN npm ci
 COPY src/ src/
