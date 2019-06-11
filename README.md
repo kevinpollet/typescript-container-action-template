@@ -1,4 +1,4 @@
-# typescript-action-template &middot; [![Actions Status](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/badge/kevinpollet/typescript-action-template)](https://github.com/kevinpollet/typescript-action-template/actions) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
+# typescript-action-template &middot; [![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fkevinpollet%2Ftypescript-action-template%2Fbadge)](https://actions-badge.atrox.dev/kevinpollet/typescript-action-template/goto) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
 > A repository template to build GitHub Actions in Node.js with TypeScript. This action outputs `TypeScript ❤️ GitHub Actions` in the action logs.
 
