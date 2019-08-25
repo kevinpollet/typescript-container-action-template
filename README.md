@@ -1,6 +1,6 @@
 # typescript-action-template
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)][1]
+[![Build Status](https://github.com/kevinpollet/typescript-action-template/workflows/Build/badge.svg)](https://github.com/kevinpollet/typescript-action-template/actions) [![License](https://img.shields.io/badge/license-MIT-blue.svg)][1]
 
 Repository template to build GitHub Actions in Node.js with TypeScript.
 
