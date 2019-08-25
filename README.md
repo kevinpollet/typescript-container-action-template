@@ -25,7 +25,7 @@ Here is the GitHub Action log:
 ## Features
 
 - Strict TypeScript type checking
-- [actions-toolkit][3]: Toolkit for building GitHub Actions in Node.js
+- [actions-toolkit][3]: The GitHub Actions ToolKit providing a set of packages to make creating actions easier and drive consistency.
 - [Jest][4]: JavaScript Testing Framework with a focus on simplicity
 - [ESLint][5]: Pluggable linter for JavaScript / TypeScript code
 - [Prettier][6]: Opinionated code formatter
@@ -45,7 +45,7 @@ Check out the [contribution guidelines][2].
 
 [1]: ./LICENSE.md
 [2]: ./CONTRIBUTING.md
-[3]: https://github.com/JasonEtco/actions-toolkit
+[3]: https://github.com/actions/toolkit
 [4]: https://jestjs.io/
 [5]: https://github.com/typescript-eslint/typescript-eslint#typescript-eslint
 [6]: https://prettier.io/

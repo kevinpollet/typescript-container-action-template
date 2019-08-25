@@ -5,9 +5,8 @@
  * found in the LICENSE.md file.
  */
 
-import { Toolkit } from "actions-toolkit";
+import { getInput } from "@actions/core";
 
-Toolkit.run((tools: Toolkit): void => {
-  tools.log("TypeScript ❤️ GitHub Actions");
-  tools.exit.success();
-});
+const name = getInput("name", { required: true });
+
+console.log(`Hello, ${name}!`);
