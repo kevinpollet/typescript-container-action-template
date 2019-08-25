@@ -1,21 +1,19 @@
-FROM node:12-alpine as builder
+FROM node:12-alpine AS builder
 WORKDIR /build
-COPY tsconfig*.json ./
 COPY package*.json ./
 RUN npm ci
+COPY tsconfig*.json ./
 COPY src/ src/
-RUN npm run build
+RUN npm run build \
+  && npm prune --production
 
 FROM node:12-alpine
+LABEL maintainer="kevinpollet <pollet.kevin@gmail.com>"
 LABEL com.github.actions.name="typescript-action-template"
 LABEL com.github.actions.description="A template to build GitHub Actions in Node.js with TypeScript"
 LABEL com.github.actions.icon="star"
 LABEL com.github.actions.color="yellow"
-LABEL repository="http://github.com/kevinpollet/typescript-action-template"
-LABEL homepage="http://github.com/kevinpollet/typescript-action-template#readme"
-LABEL maintainer="kevinpollet <pollet.kevin@gmail.com>"
 RUN apk add --no-cache tini
-COPY package*.json ./
-RUN npm install --production
 COPY --from=builder build/lib/ lib/
+COPY --from=builder build/node_modules/ node_modules/
 ENTRYPOINT [ "/sbin/tini", "--", "node", "/lib/index.js" ]
