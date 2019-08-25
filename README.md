@@ -54,11 +54,13 @@ Here is the GitHub Action log:
 - [Prettier](https://prettier.io/): Opinionated code formatter
 - [Husky](https://github.com/typicode/husky) & [lint-staged](https://github.com/okonet/lint-staged): Code formatting on git commit
 
-## Contributions
+## Contributing
 
-Contributions are very welcome ✨👍
+Contributions are welcome!
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for more information and how to get started.
+Want to file a bug, request a feature or contribute some code?
+
+Check out the [contribution guidelines](./CONTRIBUTING.md).
 
 ## License
 
