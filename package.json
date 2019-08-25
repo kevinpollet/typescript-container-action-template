@@ -17,7 +17,7 @@
     "build": "rm -rf build && tsc --project tsconfig.build.json",
     "format": "prettier --write '{src,test}/**/*' '*.{json,md}'",
     "lint": "eslint '{src,test}/**/*'",
-    "test": "jest --preset ts-jest test"
+    "test": "jest --preset ts-jest"
   },
   "dependencies": {
     "actions-toolkit": "2.1.0"
