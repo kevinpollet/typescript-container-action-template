@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "rm -rf build && tsc --project tsconfig.build.json",
-    "format": "prettier --write '{src,test}/**/*' '*.{json,md}'",
+    "format": "prettier --write '{src,test,.github}/**/*' '*.{json,md,yml}'",
     "lint": "eslint '{src,test}/**/*'",
     "test": "jest --preset ts-jest"
   },
@@ -54,7 +54,7 @@
     }
   },
   "lint-staged": {
-    "*.{json,ts,md}": [
+    "*.{json,ts,md,yml}": [
       "prettier --write",
       "git add"
     ]

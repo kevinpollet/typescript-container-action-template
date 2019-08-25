@@ -1,0 +1,14 @@
+name: typescript-action-template
+description: A template to build GitHub Actions in Node.js with TypeScript
+author: kevinpollet <pollet.kevin@gmail.com>
+branding:
+  icon: book-open
+  color: blue
+inputs:
+  name:
+    required: false
+    default: Octocat
+    description: Name to greet
+runs:
+  using: docker
+  image: Dockerfile
