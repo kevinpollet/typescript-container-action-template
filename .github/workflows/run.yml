@@ -1,0 +1,15 @@
+name: Run
+
+on: [push, pull_request]
+
+jobs:
+  run:
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        name: [Octocat, Moby Dock]
+
+    steps:
+      - uses: kevinpollet/typescript-action-template@master
+        with:
+          name: ${{matrix.name}}

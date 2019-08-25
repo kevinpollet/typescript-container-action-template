@@ -6,8 +6,7 @@ branding:
   color: blue
 inputs:
   name:
-    required: false
-    default: Octocat
+    required: true
     description: Name to greet
 runs:
   using: docker
