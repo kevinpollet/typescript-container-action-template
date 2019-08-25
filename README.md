@@ -1,6 +1,8 @@
 # typescript-action-template
 
-[![Build Status](https://github.com/kevinpollet/typescript-action-template/workflows/Build/badge.svg)](https://github.com/kevinpollet/typescript-action-template/actions) [![License](https://img.shields.io/badge/license-MIT-blue.svg)][1]
+[![Build Status](https://github.com/kevinpollet/typescript-action-template/workflows/Build/badge.svg)][10]
+[![Run Status](https://github.com/kevinpollet/typescript-action-template/workflows/Run/badge.svg)][10]
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)][1]
 
 Repository template to build GitHub Actions in Node.js with TypeScript.
 
@@ -52,3 +54,4 @@ Check out the [contribution guidelines][2].
 [7]: https://github.com/typicode/husky
 [8]: https://github.com/okonet/lint-staged
 [9]: ./Dockerfile
+[10]: https://github.com/kevinpollet/typescript-action-template/actions
