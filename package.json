@@ -14,11 +14,9 @@
     "github-action"
   ],
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
-    "clean": "rm -rf lib",
+    "build": "rm -rf build && tsc --project tsconfig.build.json",
     "format": "prettier --write '{src,test}/**/*' '*.{json,md}'",
     "lint": "eslint '{src,test}/**/*'",
-    "prebuild": "npm run clean",
     "test": "jest --preset ts-jest test"
   },
   "dependencies": {
