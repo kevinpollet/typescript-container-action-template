@@ -26,12 +26,12 @@ Here is the GitHub Action log:
 
 ## Features
 
-- Strict TypeScript type checking
-- [actions-toolkit][3]: The GitHub Actions ToolKit providing a set of packages to make creating actions easier and drive consistency.
+- Strict type checking
+- [actions-toolkit][3]: A set of packages to make creating actions easier and drive consistency
 - [Jest][4]: JavaScript Testing Framework with a focus on simplicity
 - [ESLint][5]: Pluggable linter for JavaScript / TypeScript code
 - [Prettier][6]: Opinionated code formatter
-- [Husky][7] & [lint-staged][8]: Code formatting on git commit
+- [Husky][7] & [lint-staged][8]: Code formatting on commit
 
 ## Contributing
 
