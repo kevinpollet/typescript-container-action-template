@@ -7,6 +7,12 @@
 
 Template repository to create a GitHub container action in Node.js with TypeScript.
 
+## How does it work?
+
+This basic action takes a name as input and writes the corresponding greeting message to the action logs.
+
+The container action uses the Docker multi-stage build feature available since version 17.05, to compile the TypeScript sources and to copy the compilation result to the final container image. So, it's not necessary to commit the compiled sources to the action repository.
+
 ## Features
 
 - Strict type checking
