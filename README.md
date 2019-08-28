@@ -4,25 +4,7 @@
 [![Run Status](https://github.com/kevinpollet/typescript-action-template/workflows/Run/badge.svg)][10]
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)][1]
 
-Repository template to build GitHub Actions in Node.js with TypeScript.
-
-## How does it work?
-
-The [Dockerfile][9] use the multi-stage build feature available since Docker `17.05`, see https://docs.docker.com/develop/develop-images/multistage-build/ for more details.
-
-1. TypeScript sources are built within a docker image
-2. Then, built sources are copied in the final GitHub Action image
-3. Finally, built sources are run with Node.js
-
-Here is the GitHub Action log:
-
-```shell
-ℹ  info      TypeScript ❤️ GitHub Actions
-
-### SUCCEEDED typescript-action-template 10:22:57Z (36.42s)
-```
-
-> The final Docker image is thinner and contains only the runtime `dependencies` and not all the `devDependencies` required to build the TypeScript project.
+Template repository to create a GitHub container action in Node.js with TypeScript.
 
 ## Features
 
