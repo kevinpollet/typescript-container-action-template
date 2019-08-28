@@ -6,7 +6,18 @@
  */
 
 describe("index", (): void => {
-  it("should be true", (): void => {
-    expect(true).toBeTruthy();
+  afterEach(() => (process.env.INPUT_NAME = undefined));
+
+  it("should call console.log method the given name", (): Promise<any> => {
+    process.env.INPUT_NAME = "Jest";
+
+    const consoleLogSpy = jest.spyOn(globalThis.console, "log");
+
+    return import("../src/index").then(() => {
+      expect(consoleLogSpy.mock.calls.length).toBe(1);
+      expect(consoleLogSpy.mock.calls[0][0]).toBe(
+        `Hello, ${process.env.INPUT_NAME}!`
+      );
+    });
   });
 });
