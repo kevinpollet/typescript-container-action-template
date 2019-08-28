@@ -31,5 +31,5 @@ The commit messages follow the [Conventional Commits][2] specification. This lea
 
 [1]: ./CODE_OF_CONDUCT.md
 [2]: https://www.conventionalcommits.org
-[3]: https://github.com/kevinpollet/docku/issues
-[4]: https://github.com/kevinpollet/docku/pulls
+[3]: https://github.com/kevinpollet/typescript-container-action-template/issues
+[4]: https://github.com/kevinpollet/typescript-container-action-template/pulls

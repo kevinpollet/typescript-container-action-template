@@ -1,13 +1,13 @@
 {
-  "name": "typescript-action-template",
+  "name": "typescript-container-action-template",
   "version": "0.0.0",
   "private": true,
-  "description": "A template to build GitHub Actions in Node.js with TypeScript",
+  "description": "Template to create a GitHub container action in Node.js with TypeScript",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/kevinpollet/typescript-action-template#readme",
-  "bugs": "https://github.com/kevinpollet/typescript-action-template/issues",
-  "repository": "github:kevinpollet/typescript-action-template",
+  "homepage": "https://github.com/kevinpollet/typescript-container-action-template#readme",
+  "bugs": "https://github.com/kevinpollet/typescript-container-action-template/issues",
+  "repository": "github:kevinpollet/typescript-container-action-template",
   "keywords": [
     "nodejs",
     "typescript",

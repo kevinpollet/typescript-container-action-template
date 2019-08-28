@@ -1,5 +1,5 @@
-name: typescript-action-template
-description: A template to build GitHub Actions in Node.js with TypeScript
+name: typescript-container-action-template
+description: Template to create a GitHub container action in Node.js with TypeScript
 author: kevinpollet <pollet.kevin@gmail.com>
 branding:
   icon: book-open

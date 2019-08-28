@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-18.04
     strategy:
       matrix:
-        name: [Octocat, Moby Dock]
+        name: [World, Octocat]
 
     steps:
-      - uses: kevinpollet/typescript-action-template@master
+      - uses: kevinpollet/typescript-container-action-template@master
         with:
           name: ${{matrix.name}}
