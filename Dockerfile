@@ -1,5 +1,5 @@
 FROM node:12-alpine AS builder
-WORKDIR /build
+WORKDIR /action
 COPY package*.json ./
 RUN npm ci
 COPY tsconfig*.json ./
@@ -9,6 +9,7 @@ RUN npm run build \
 
 FROM node:12-alpine
 RUN apk add --no-cache tini
-COPY --from=builder build/lib/ lib/
-COPY --from=builder build/node_modules/ node_modules/
+COPY --from=builder action/package.json .
+COPY --from=builder action/lib lib/
+COPY --from=builder action/node_modules node_modules/
 ENTRYPOINT [ "/sbin/tini", "--", "node", "/lib/index.js" ]
