@@ -1,4 +1,4 @@
-# typescript-container-action-template
+# TypeScript Container Action Template
 
 [![Build Status](https://github.com/kevinpollet/typescript-container-action-template/workflows/Build/badge.svg)][9]
 [![Run Status](https://github.com/kevinpollet/typescript-container-action-template/workflows/Run/badge.svg)][9]
