@@ -1,6 +1,6 @@
 {
   "name": "typescript-container-action-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Template to create a GitHub container action in Node.js with TypeScript",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
