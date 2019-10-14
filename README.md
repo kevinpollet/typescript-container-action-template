@@ -1,7 +1,7 @@
 # TypeScript Container Action Template
 
-[![Build Status](https://github.com/kevinpollet/typescript-container-action-template/workflows/Build/badge.svg)][9]
-[![Run Status](https://github.com/kevinpollet/typescript-container-action-template/workflows/Run/badge.svg)][9]
+[![Build Status](https://github.com/kevinpollet/typescript-container-action-template/workflows/build/badge.svg)][9]
+[![Run Status](https://github.com/kevinpollet/typescript-container-action-template/workflows/run/badge.svg)][9]
 [![Use this template](https://img.shields.io/badge/✨%20Use%20this%20template%20%20✨-blueviolet.svg)][10]
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)][1]
 

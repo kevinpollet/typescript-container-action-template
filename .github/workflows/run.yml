@@ -1,4 +1,4 @@
-name: Run
+name: run
 
 on: [push, pull_request]
 
