@@ -8,7 +8,7 @@
 describe("index", (): void => {
   afterEach(() => (process.env.INPUT_NAME = undefined));
 
-  it("should call console.log method the given name", (): Promise<any> => {
+  it("should call console.log method the given name", (): Promise<void> => {
     process.env.INPUT_NAME = "Jest";
 
     const consoleLogSpy = jest.spyOn(globalThis.console, "log");
