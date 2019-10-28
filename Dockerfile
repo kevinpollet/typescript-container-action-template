@@ -1,4 +1,4 @@
-FROM node:12-alpine AS builder
+FROM node:13-alpine AS builder
 WORKDIR /action
 COPY package*.json ./
 RUN npm ci
@@ -7,7 +7,7 @@ COPY src/ src/
 RUN npm run build \
   && npm prune --production
 
-FROM node:12-alpine
+FROM node:13-alpine
 RUN apk add --no-cache tini
 COPY --from=builder action/package.json .
 COPY --from=builder action/lib lib/
