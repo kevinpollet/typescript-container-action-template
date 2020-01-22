@@ -20,21 +20,22 @@
     "test": "jest --preset ts-jest"
   },
   "dependencies": {
-    "@actions/core": "^1.2.0"
+    "@actions/core": "1.2.1"
   },
   "devDependencies": {
-    "@kevinpollet/tsconfig": "^0.1.0",
-    "@types/jest": "24.0.23",
-    "@typescript-eslint/eslint-plugin": "2.9.0",
-    "@typescript-eslint/parser": "2.9.0",
-    "eslint": "6.7.2",
-    "eslint-config-prettier": "6.7.0",
-    "husky": "^3.1.0",
-    "jest": "^24.9.0",
-    "lint-staged": "^9.5.0",
+    "@kevinpollet/tsconfig": "0.1.0",
+    "@types/jest": "24.9.0",
+    "@types/node": "12.12.25",
+    "@typescript-eslint/eslint-plugin": "2.17.0",
+    "@typescript-eslint/parser": "2.17.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "husky": "4.2.0",
+    "jest": "24.9.0",
+    "lint-staged": "10.0.1",
     "prettier": "1.19.1",
-    "ts-jest": "24.2.0",
-    "typescript": "3.7.2"
+    "ts-jest": "24.3.0",
+    "typescript": "3.7.5"
   },
   "eslintConfig": {
     "parserOptions": {
@@ -62,8 +63,7 @@
   },
   "lint-staged": {
     "*.{json,ts,md,yml}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }
