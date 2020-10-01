@@ -20,7 +20,7 @@
     "test": "jest --preset ts-jest"
   },
   "dependencies": {
-    "@actions/core": "1.2.4"
+    "@actions/core": "1.2.6"
   },
   "devDependencies": {
     "@kevinpollet/tsconfig": "0.1.0",
